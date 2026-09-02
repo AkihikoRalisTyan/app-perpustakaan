@@ -8,3 +8,6 @@ Aplikasi manajemen perpustakaan kampus berbasis Laravel 12 untuk mengelola data 
    ```bash
    git clone https://github.com/AkihikoRalisTyan/app-perpustakaan.git
    cd app-perpustakaan
+
+## Screenshot Tampilan Welcome
+![Welcome Laravel](Screenshot.png)
