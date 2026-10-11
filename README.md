@@ -44,3 +44,4 @@ Aplikasi manajemen perpustakaan kampus berbasis Laravel 12 untuk mengelola data 
 | 3 | Blade Views & Form | ✅ Done |
 | 4 | Form Request & Validasi | ✅ Done |
 | 5 | Migration, Eloquent Model & CRUD | ✅ Done |
+| 7 | Eloquent Relationships & CRUD Loans | ✅ Done |
