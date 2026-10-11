@@ -46,3 +46,8 @@ Aplikasi manajemen perpustakaan kampus berbasis Laravel 12 untuk mengelola data 
 | 5 | Migration, Eloquent Model & CRUD | ✅ Done |
 | 7 | Eloquent Relationships & CRUD Loans | ✅ Done |
 | 8 | Autentikasi, Middleware & Role Access | ✅ Done |
+| 9 | REST API Dasar & API Resource | ✅ Done |
+
+## Dokumentasi REST API
+
+Dokumentasi lengkap seluruh endpoint REST API (`books`, `members`, `loans`, `stats`) beserta contoh payload dan format response JSON tersedia di [API.md](./API.md).
