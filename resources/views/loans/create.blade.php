@@ -24,20 +24,8 @@
                 <div class="error">{{ $message }}</div>
             @enderror
 
-            <label for="user_id">Petugas</label>
-            <select name="user_id" id="user_id">
-                <option value="">-- Pilih Petugas --</option>
-                @foreach ($users as $user)
-                    <option value="{{ $user['id'] }}" @selected(old('user_id') == $user['id'])>
-                        {{ $user['name'] }}
-                    </option>
-                @endforeach
-            </select>
-            @error('user_id')
-                <div class="error">{{ $message }}</div>
-            @enderror
-            <p style="font-size: 13px; color: #6b7280; margin-top: 4px;">
-                <em>Catatan: dropdown petugas dipilih manual karena login belum ada - otomatis dari user yang login mulai Pertemuan 8.</em>
+            <p style="font-size: 14px; color: #4b5563; margin-top: 16px;">
+                <em>Petugas pencatat: <strong>{{ auth()->user()->name }}</strong> (otomatis dari akun yang login).</em>
             </p>
 
             <label for="tanggal_pinjam">Tanggal Pinjam</label>
